@@ -1,18 +1,18 @@
 spring:
   profiles:
     active:
-    -dev
-    
+    -	dev
+
+---
 
 spring:
-  profiles: dev   #开发环境
-  application:
+  profiles: dev
+  application: 
     name: mycloud-config-dev
-        
-        
+
+---
 
 spring:
-  profiles: test   #测试环境
-  application:
-     name: mycloud-config-test
-#UTF-8
+  profiles: test
+  application: 
+    name: mycloud-config-test
