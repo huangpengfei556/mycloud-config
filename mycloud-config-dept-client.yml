@@ -40,11 +40,11 @@ info:
 eureka:
   instance:
     hostname: eureka7001.com
-    client:
-      register-with-eureka: false 
-      fetch-register: false
-      service-url:
-        defaultZone: http:// eureka7001.com/eureka/
+  client:
+    register-with-eureka: false 
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eureka7001.com/eureka/
 ---
 server:
   port: 8001
@@ -83,8 +83,8 @@ info:
 eureka:
   instance:
     hostname: eureka7001.com
-    client:
-      register-with-eureka: false 
-      fetch-register: false
-      service-url:
-        defaultZone: http:// eureka7001.com/eureka/
+  client:
+    register-with-eureka: false 
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eureka7001.com/eureka/
